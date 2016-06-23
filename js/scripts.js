@@ -1,5 +1,9 @@
 
 
+
+
+
+
 // var outputNumber = single item in array that is in the output (one of the array values)
 
 
@@ -22,5 +26,10 @@ $(document).ready(function(){
     event.preventDefault();
     var input = parseInt($("input#number").val());
     console.log(input)
+
+    var range = Array.apply(1, Array(input + 1)).map(function (_, input) {
+      return input;
+    });
+    console.log(range)
   })
 });
