@@ -21,14 +21,11 @@ $(document).ready(function() {
         return output;
       }
     });
-    // var result = pingPong.join(',  ')
-    // console.log(result);
-    pingPong.forEach(function(outputItem) {
-    $("ul#result").append("<li>" + outputItem);
-    });
-
-    $(button).click(function() {
-      $("#result").hide();
+    var result = pingPong.join(',   ')
+    console.log(result);
+      /*var append = pingPong.forEach(function(outputItem) {
+      $("ul#result").append("<li>" + outputItem);
+    });*/
+      $("#result").text(result)
     });
   });
-});
