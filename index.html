@@ -8,31 +8,38 @@
     <title>Ping Pong</title>
   </head>
   <body>
-    <div class = "container">
-    <h1>Play Ping-Pong with Us!</h1>
-    <br></br>
-    <h4>Here's how it works:</h4>
-    <ol>
-      <li>Enter any number of your choice</li>
-      <li>The program will list all numbers ranging from to the one you've entered</li>
-      <li>If the number is divisble by 3 in the list, you'll see "ping" in it's place</li>
-      <li>If the number is divisble by 5 in the list, you'll see "pong" in it's place</li>
-      <li>If the number is divisble by 15 in the list, you'll see "pingpong" in it's place</li>
-      <li>Have fun!</li>
-    </ol> <br></br>
-      <form id = "ping-pong">
-        <div class="form-group">
-          <label for = number>Enter your number here: </label>
-          <input id="number" type=text>
-        </div> <!-- closes the number form group -->
-        <br></br>
-        <button type="submit" class = "btn" id = "button">Submit</button>
-      </form>
+    <div class = "upper">
+      <h1>Play Ping-Pong with us!</h1>
+    </div> <br></br>
 
-      <br></br>
-      <div id = "result">
+    <div class = "container">
+      <h4>How it works:</h4>
+        <ol>
+          <li>Enter any number of your choice</li>
+          <li>The program will list all numbers ranging from one to the number you've entered</li>
+          <li>If the number is divisble by 3 in the list, you'll see "ping" in it's place</li>
+          <li>If the number is divisble by 5 in the list, you'll see "pong" in it's place</li>
+          <li>If the number is divisble by 15 in the list, you'll see "pingpong" in it's place</li>
+          <li>Have fun!</li>
+        </ol> <br></br>
+
+        <form id = "ping-pong">
+          <div class = "col-md-7">
+            <div class="form-group">
+              <label for = number>Enter your number here: </label>
+              <input id="number" type=text>
+            </div> <!-- closes the number form group -->
+            <br></br>
+            <button type="submit" class = "btn" id = "button">Submit</button>
+          </div>
+        </form>
+        <div class = "col-md-5">
+          <img src = "ping_pong_paddle.jpg">
+        </div>
+        <div id = "result">
+        </div>
+        <br></br>
       </div>
-      <br></br>
     </div> <!-- closes out the container -->
   </body>
 </html>
