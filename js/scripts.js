@@ -21,9 +21,11 @@ $(document).ready(function() {
         return output;
       }
     });
-    var result = pingPong.join(' ')
-    console.log(result);
-    $("#result").text(result);
+    // var result = pingPong.join(',  ')
+    // console.log(result);
+    pingPong.forEach(function(outputItem) {
+    $("ul#result").append("<li>" + outputItem);
+    });
 
     $(button).click(function() {
       $("#result").hide();
