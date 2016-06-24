@@ -21,11 +21,10 @@ $(document).ready(function() {
         return output;
       }
     });
-    var result = pingPong.join(',   ')
+  
+    var result = pingPong.join(',  ')
     console.log(result);
-      /*var append = pingPong.forEach(function(outputItem) {
-      $("ul#result").append("<li>" + outputItem);
-    });*/
-      $("#result").text(result)
+
+    $("#result").text(result)
     });
   });

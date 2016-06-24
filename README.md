@@ -2,6 +2,7 @@
 ## Loops and Arrays: Introduction to Programming (Evening Course) 6.26.2016-06
 
 ## Description
+This webpage returns a specific output based on what the user inputs into a form through looping, arrays, and branching (conditional logic).
 
 ## Specifications
 1. List range of numbers starting from 1 to what the user inputs
@@ -16,7 +17,6 @@
 4. Numbers divisible by 15 will display as "pingpong"
   Input Example: 15
   Output Example: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong]
-
 
 ## Setup
 1. Clone the repository down to your local machine form terminal.
