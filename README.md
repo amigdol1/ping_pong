@@ -1,5 +1,5 @@
 # Ping-Pong: A Range Tool with logic
-## Loops and Arrays: Introduction to Programming (Evening Course) 6.26.2016-06
+## Loops and Arrays: Introduction to Programming (Evening Course) 6.26.2016
 
 ## Description
 This webpage returns a specific output based on what the user inputs into a form through looping, arrays, and branching (conditional logic).
