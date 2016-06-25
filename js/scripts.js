@@ -21,7 +21,7 @@ $(document).ready(function() {
         return output;
       }
     });
-  
+
     var result = pingPong.join(',  ')
     console.log(result);
 
