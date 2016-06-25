@@ -6,17 +6,17 @@ This webpage returns a specific output based on what the user inputs into a form
 
 ## Specifications
 1. List range of numbers starting from 1 to what the user inputs
-  Input Example: 2
-  Output Example: [1, 2]
+  * Input Example: 2
+  * Output Example: [1, 2]
 2. Numbers divisible by 3 will display as "ping"
-  Input Example: 3
-  Output Example: [1, 2, ping]
+  * Input Example: 3
+  * Output Example: [1, 2, ping]
 3. Numbers divisible by 5 will display as "pong"
-  Input Example: 5
-  Output Example: [1, 2, ping, 4, pong]
+  * Input Example: 5
+  * Output Example: [1, 2, ping, 4, pong]
 4. Numbers divisible by 15 will display as "pingpong"
-  Input Example: 15
-  Output Example: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong]
+  * Input Example: 15
+  * Output Example: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong]
 
 ## Setup
 1. Clone the repository down to your local machine form terminal.
